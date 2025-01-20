@@ -1,0 +1,86 @@
+
+        body{
+            background-color:beige;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        nav{
+            background-color: lightcyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+       nav ul{
+           display: flex;
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+        }
+       nav ul li{
+           margin: 0 20px;
+       }
+       nav ul li a{
+           text-decoration: none;
+           font-size: 18px;
+           font-weight: bold;
+           color: black;
+           border-radius: 50px;
+       }
+       nav ul li a:hover{
+           background-color: black;
+           color: white;
+           padding: 10px 20px;
+       }
+.hero-image{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/29/20/46/hospital-2354845_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.about-us{
+         background-color: grey;
+         height: 60px;
+       }
+       .about{
+         background-color: gold;
+         height: 60px;
+       }
+       .section{
+         background-color: cornflowerblue;
+         height: 60px;
+       }
+       #one{
+         background-color: chartreuse;
+         height: 60px;
+       }
+        #two{
+          background-color: blueviolet;
+          height: 60px;
+        }
+        .image-one img{
+            height: 40vh;
+            width: 300px;
+        }
+        .image-two img{
+            height: 40vh;
+            width: 300px;
+        }
+        .image-three img{
+            height: 40vh;
+            width: 300px;
+        }
+        .image-four img{
+            height: 40vh;
+            width: 300px;
+        }
+        main{
+            display: flex;
+        }
